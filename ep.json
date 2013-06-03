@@ -1,0 +1,11 @@
+{ "parts": [
+    { "name": "pushbutton"
+    , "hooks": { "eejsBlock_editbarMenuRight": "ep_push2delete/index"
+               , "handleMessage": "ep_push2delete/index"
+               }
+    , "client_hooks":
+      { "documentReady": "ep_push2delete/static/js/delete_button.js"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ep_push2delete",
+  "version": "0.1.0",
+  "description": "Displays a button that will allow anyone to fully delete the pad they're viewing.",
+  "homepage": "https://github.com/marcelklehr/ep_push2delete",
+  "keywords": [
+    "etherpad",
+    "plugin",
+    "delete",
+    "remove",
+    "pad",
+    "button"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/marcelklehr/ep_push2delete.git"
+  },
+  "author": {
+    "name": "Marcel Klehr",
+    "email": "mklehr@gmx.net"
+  },
+  "license": "MIT"
+}
