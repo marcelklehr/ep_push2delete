@@ -44,6 +44,8 @@ exports.handleMessage = function(hook_name, context, callback){
 }
 
 exports.eejsBlock_editbarMenuRight = function(hook_name, args, cb) {
-  args.content = eejs.require('ep_push2delete/templates/delete_button.ejs') + args.content;
-  cb()
-}
+  if(!args.renderContext.req.match(/^\/(p\/r\..{16})/)) {
+    args.content = eejs.require('ep_push2delete/templates/delete_button.ejs') + args.content;
+  }
+  cb();
+};
