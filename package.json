@@ -1,6 +1,6 @@
 {
   "name": "ep_push2delete",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Displays a button that will allow anyone to fully delete the pad they're viewing.",
   "homepage": "https://github.com/marcelklehr/ep_push2delete",
   "keywords": [
