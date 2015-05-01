@@ -1,4 +1,4 @@
-var modals = require("ep_etherpad-lite/static/js/pad_modals.js").padmodals
+var modals = require("ep_etherpad-lite/static/js/pad_modals").padmodals
 
 function sendDeletionRequest(){
   var myAuthorId = pad.getUserId();
